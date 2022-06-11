@@ -1,0 +1,72 @@
+.link{
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+
+/* HEADER */
+
+.header{
+    display: flex;
+    align-items: center; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.navigation-list{
+    display: flex;
+}
+
+.logo{
+    margin-right: 100px;
+    color: black;
+}
+
+.logo:hover{
+    color: red;
+}
+
+.navigation-list-link{
+    color: black;
+}
+
+.navigation-list-link:hover{
+    color: red;
+}
+
+.navigation-list-item:not(:last-child){
+    margin-right: 40px;
+}
+
+/* HERO */
+
+.hero-main{
+
+    background-image: url(../images/god-of-war-4-god-of-war-2017-games-games-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1850px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.hero-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 700px;
+}
+
+.hero-title{
+    margin-top: 300px;
+    color: #fff;
+}
+
+.hero-button{
+    
+}
+
